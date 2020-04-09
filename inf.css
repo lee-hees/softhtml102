@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 20pt;
+	color: black;
+	text-decoration: none;
+	line-height: 60px;
+	/* text-align: center; */
+}
+
+header{
+    position: fixed;
+	width: 100%;
+}
+.title{
+    float: left;
+    padding: 20px;
+    color: black;
+}
+#menu:before{
+	content:"MENU";
+}
+#menu{
+    float: right;
+	padding: 20px;
+}
+#sub{
+	display: none;
+}
+.pages{
+	position: absolute;
+    text-align: center;
+}
+a{
+	display: block;
+}
+.blank{
+	height: 100px;
+}
+span{
+	font-size: 20px;
+}
+.initial{
+	font-size: 40px;
+}
+.station{
+    font-size: 50px;
+}
+.page{
+	width: 300px;
+	height: 580px;
+	overflow:hidden;
+	margin: 0 auto;
+	position: relative;
+}
+.car{
+    width: 270px;
+    height: 50px;
+    padding:10px;
+    border:1px solid;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.one{
+	border-top-left-radius: 80px;
+	border-bottom-left-radius: 20px;
+}
+.four1-1{    width:300px;    left: 0px;}
+.four1-2{    width:300px;    left: 300px;}
+.four1-3{    width:300px;    left: 600px;}
+.four1-4{    width:300px;    left: 900px;}
+.four1-5{    width:300px;    left: 1200px;}
+.four1-6{    width:300px;    left: 1500px;}
+.four1-7{    width:300px;    left: 1800px;}
+.four1-8{    width:300px;    left: 2100px;}
+.four1-9{    width:300px;    left: 2400px;}
+.four1-10{    width:300px;    left: 2700px;}
+.four1-11{    width:300px;    left: 3000px;}
+.four1-12{    width:300px;    left: 3300px;}
+.four1-13{    width:300px;    left: 3600px;}
+.four1-14{    width:300px;    left: 3900px;}
+.four1-15{    width:300px;    left: 4200px;}
+.four1-16{    width:300px;    left: 4500px;}
+.four1-17{    width:300px;    left: 4800px;}
+.four1-18{    width:300px;    left: 5100px;}
+.four1-19{    width:300px;    left: 5400px;}
+.four1-20{    width:300px;    left: 5700px;}
+.four1-21{    width:300px;    left: 6000px;}
+.four1-22{    width:300px;    left: 6300px;}
+.four1-23{    width:300px;    left: 6600px;}
+.four1-24{    width:300px;    left: 6900px;}
+.four1-25{    width:300px;    left: 7200px;}
+.four1-26{    width:300px;    left: 7500px;}
+.four1-27{    width:300px;    left: 7800px;}
+.four1-28{    width:300px;    left: 8100px;}
+.four1-29{    width:300px;    left: 8400px;}
+.four1-30{    width:300px;    left: 8700px;}
+.four1-31{    width:300px;    left: 9000px;}
+.four1-32{    width:300px;    left: 9300px;}
+.four1-33{    width:300px;    left: 9600px;}
+.four1-34{    width:300px;    left: 9900px;}
+.four1-35{    width:300px;    left: 10200px;}
+.four1-36{    width:300px;    left: 10500px;}
+.four1-37{    width:300px;    left: 10800px;}
+.four1-38{    width:300px;    left: 11100px;}
+.four1-39{    width:300px;    left: 11400px;}
+.four1-40{    width:300px;    left: 11700px;}
+.four2-1{    width:300px;    left: 12000px;}
+.four2-2{    width:300px;    left: 12300px;}
+.four2-3{    width:300px;    left: 12600px;}
+.four2-4{    width:300px;    left: 12900px;}
+.four2-5{    width:300px;    left: 13200px;}
+.four2-6{    width:300px;    left: 13500px;}
+.four2-7{    width:300px;    left: 13800px;}
+.four2-8{    width:300px;    left: 14100px;}
+.four2-9{    width:300px;    left: 14400px;}
+.four2-10{    width:300px;    left: 14700px;}
+.four2-11{    width:300px;    left: 15000px;}
+.four2-12{    width:300px;    left: 15300px;}
+.four2-13{    width:300px;    left: 15600px;}
+.four2-14{    width:300px;    left: 15900px;}
+.four2-15{    width:300px;    left: 16200px;}
+.four2-16{    width:300px;    left: 16500px;}
+.four2-17{    width:300px;    left: 16800px;}
+.four2-18{    width:300px;    left: 17100px;}
+.four2-19{    width:300px;    left: 17400px;}
+.four2-20{    width:300px;    left: 17700px;}
+.four2-21{    width:300px;    left: 18000px;}
+.four2-22{    width:300px;    left: 18300px;}
+.four2-23{    width:300px;    left: 18600px;}
+.four2-24{    width:300px;    left: 18900px;}
+.four2-25{    width:300px;    left: 19200px;}
+.four2-26{    width:300px;    left: 19500px;}
+.four2-27{    width:300px;    left: 19800px;}
+.four2-28{    width:300px;    left: 20100px;}
+.four2-29{    width:300px;    left: 20400px;}
+.four2-30{    width:300px;    left: 20700px;}
+.four2-31{    width:300px;    left: 21000px;}
+.four2-32{    width:300px;    left: 21300px;}
+.four2-33{    width:300px;    left: 21600px;}
+.four2-34{    width:300px;    left: 21900px;}
+.four2-35{    width:300px;    left: 22200px;}
+.four2-36{    width:300px;    left: 22500px;}
+.four2-37{    width:300px;    left: 22800px;}
+.four2-38{    width:300px;    left: 23100px;}
+.four2-39{    width:300px;    left: 23400px;}
+.four2-40{    width:300px;    left: 23700px;}
+.four2-41{    width:300px;    left: 24000px;}
+.four2-42{    width:300px;    left: 24300px;}
+.four2-43{    width:300px;    left: 24600px;}
+.four3-1{    width:300px;    left: 24900px;}
+.four3-2{    width:300px;    left: 25200px;}
+.four3-3{    width:300px;    left: 25500px;}
+.four3-4{    width:300px;    left: 25800px;}
+.four3-5{    width:300px;    left: 26100px;}
+.four3-6{    width:300px;    left: 26400px;}
+.four3-7{    width:300px;    left: 26700px;}
+.four3-8{    width:300px;    left: 27000px;}
+.four3-9{    width:300px;    left: 27300px;}
+.four3-10{    width:300px;    left: 27600px;}
+.four3-11{    width:300px;    left: 27900px;}
+.four3-12{    width:300px;    left: 28200px;}
+.four3-13{    width:300px;    left: 28500px;}
+.four3-14{    width:300px;    left: 28800px;}
+.four3-15{    width:300px;    left: 29100px;}
+.four3-16{    width:300px;    left: 29400px;}
+.four3-17{    width:300px;    left: 29700px;}
+.four4-1{    width:300px;    left: 30000px;}
+.four4-2{    width:300px;    left: 30300px;}
+.four4-3{    width:300px;    left: 30600px;}
+.four4-4{    width:300px;    left: 30900px;}
+.four4-5{    width:300px;    left: 301200px;}
+.four4-6{    width:300px;    left: 301500px;}
+.four4-7{    width:300px;    left: 301800px;}
+.four4-8{    width:300px;    left: 302100px;}
+.four4-9{    width:300px;    left: 32400px;}
+.four4-10{    width:300px;    left: 32700px;}
+.four4-11{    width:300px;    left: 33000px;}
+.four4-12{    width:300px;    left: 33300px;}
+.four4-13{    width:300px;    left: 33600px;}
+.four4-14{    width:300px;    left: 33900px;}
+.fourk-1{    width:300px;    left: 34200px;}
+.fourk-2{    width:300px;    left: 34500px;}
+.fourk-3{    width:300px;    left: 34800px;}
+.fourk-4{    width:300px;    left: 35100px;}
+.fourk-5{    width:300px;    left: 35400px;}
+.fourk-6{    width:300px;    left: 35700px;}
+.fourk-7{    width:300px;    left: 36000px;}
+.fourk-8{    width:300px;    left: 36300px;}
+.fourk-9{    width:300px;    left: 36600px;}
+.fourk-10{    width:300px;    left: 36900px;}
+.fourk-11{    width:300px;    left: 37200px;}
+.fourk-12{    width:300px;    left: 37500px;}
+.fourk-13{    width:300px;    left: 37800px;}
+.fourk-14{    width:300px;    left: 38100px;}
+.fourk-15{    width:300px;    left: 38400px;}
+.fourk-16{    width:300px;    left: 38700px;}
+.fourk-17{    width:300px;    left: 39000px;}
+.fourk-18{    width:300px;    left: 39300px;}
+.fourk-19{    width:300px;    left: 39600px;}
+.fourk-20{    width:300px;    left: 39900px;}
+.fourk-21{    width:300px;    left: 40200px;}
+.fourd-1{    width:300px;    left: 40500px;}
+.fourd-2{    width:300px;    left: 40800px;}
+.fourd-3{    width:300px;    left: 41100px;}
+.fourd-4{    width:300px;    left: 41400px;}
+.fourd-5{    width:300px;    left: 41700px;}
+.fourd-6{    width:300px;    left: 42000px;}
+.fourd-7{    width:300px;    left: 42300px;}
+.fourd-8{    width:300px;    left: 42600px;}
+.fourd-9{    width:300px;    left: 42900px;}
+.fourd-10{    width:300px;    left: 43200px;}
+.fourd-11{    width:300px;    left: 43500px;}
+.fourd-12{    width:300px;    left: 43800px;}
+.fourd-13{    width:300px;    left: 44100px;}
+.fourd-14{    width:300px;    left: 44400px;}

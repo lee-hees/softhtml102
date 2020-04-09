@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>부산지하철</title>
+    <link rel="stylesheet" type="text/css" href="inf.css">
+    <script type="text/javascript" src="arduinostyle.js"></script>
+    <style type="text/css">
+        .one{
+            background: rgba(0,255,0,0.75);
+        }
+        .one:after{
+            content: "원할";
+        }
+        .two{
+            background: rgba(255, 255, 0, 0.75);
+        }
+        .two:after{
+            content: "보통";
+        }
+        .three{
+            background: rgba(255,0,0,0.75);
+        }
+        .three:after{
+            content: "혼잡";
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title" id="op">
+            <a href="http://22sng.github.io/softhtml102/">
+                부산지하철
+            </a>
+        </div>
+        <div id="menu">
+            <div id="sub">
+                <a href="index.html#two-1">
+                    1호선
+                </a>
+                <a href="index.html#two-2">
+                    2호선
+                </a>
+                <a href="index.html#two-3">
+                    3호선
+                </a>
+                <a href="index.html#two-4">
+                    4호선
+                </a>
+                <a href="index.html#two-k">
+                    경전철
+                </a>
+                <a href="index.html#two-d">
+                    동해선
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div id="전체">
+        <div id="1호선" class="page">
+            <div class="pages four2-1">
+                <div id="second-1">
+                    <p class="blank"></p>
+                    <div class="station">장산역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-2">
+                <div id="second-2">
+                    <p class="blank"></p>
+                    <div class="station">중동역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-3">
+                <div id="second-3">
+                    <p class="blank"></p>
+                    <div class="station">해운대역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-4">
+                <div id="second-4">
+                    <p class="blank"></p>
+                    <div class="station">동백역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-5">
+                <div id="second-5">
+                    <p class="blank"></p>
+                    <div class="station">벡스코역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-6">
+                <div id="second-6">
+                    <p class="blank"></p>
+                    <div class="station">센텀시티역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-7">
+                <div id="second-7">
+                    <p class="blank"></p>
+                    <div class="station">민락역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-8">
+                <div id="second-8">
+                    <p class="blank"></p>
+                    <div class="station">수영역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-9">
+                <div id="second-9">
+                    <p class="blank"></p>
+                    <div class="station">광안역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-10">
+                <div id="second-10">
+                    <p class="blank"></p>
+                    <div class="station">금련산역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-11">
+                <div id="second-11">
+                    <p class="blank"></p>
+                    <div class="station">남천역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-12">
+                <div id="second-12">
+                    <p class="blank"></p>
+                    <div class="station">경성대. <br> 부경대역</div>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-13">
+                <div id="second-13">
+                    <p class="blank"></p>
+                    <div class="station">대연역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-14">
+                <div id="second-14">
+                    <p class="blank"></p>
+                    <div class="station">못골역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-15">
+                <div id="second-15">
+                    <p class="blank"></p>
+                    <div class="station">지게골역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-16">
+                <div id="second-16">
+                    <p class="blank"></p>
+                    <div class="station">문현역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-17">
+                <div id="second-17">
+                    <p class="blank"></p>
+                    <div class="station">국제금융센터 <br>부산은행역</div>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-18">
+                <div id="second-18">
+                    <p class="blank"></p>
+                    <div class="station">전포역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-19">
+                <div id="second-19">
+                    <p class="blank"></p>
+                    <div class="station">서면역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-20">
+                <div id="second-20">
+                    <p class="blank"></p>
+                    <div class="station">부암역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-21">
+                <div id="second-21">
+                    <p class="blank"></p>
+                    <div class="station">가야역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-22">
+                <div id="second-22">
+                    <p class="blank"></p>
+                    <div class="station">동의대역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-23">
+                <div id="second-23">
+                    <p class="blank"></p>
+                    <div class="station">개금역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-24">
+                <div id="second-24">
+                    <p class="blank"></p>
+                    <div class="station">냉정역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-25">
+                <div id="second-25">
+                    <p class="blank"></p>
+                    <div class="station">주례역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-26">
+                <div id="second-26">
+                    <p class="blank"></p>
+                    <div class="station">감전역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-27">
+                <div id="second-27">
+                    <p class="blank"></p>
+                    <div class="station">사상역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-28">
+                <div id="second-28">
+                    <p class="blank"></p>
+                    <div class="station">덕포역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-29">
+                <div id="second-29">
+                    <p class="blank"></p>
+                    <div class="station">모덕역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-30">
+                <div id="second-30">
+                    <p class="blank"></p>
+                    <div class="station">모라역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-31">
+                <div id="second-31">
+                    <p class="blank"></p>
+                    <div class="station">구남역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-32">
+                <div id="second-32">
+                    <p class="blank"></p>
+                    <div class="station">구명역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-33">
+                <div id="second-33">
+                    <p class="blank"></p>
+                    <div class="station">덕천역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-34">
+                <div id="second-34">
+                    <p class="blank"></p>
+                    <div class="station">수정역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-35">
+                <div id="second-35">
+                    <p class="blank"></p>
+                    <div class="station">화명역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-36">
+                <div id="second-36">
+                    <p class="blank"></p>
+                    <div class="station">율리역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-37">
+                <div id="second-37">
+                    <p class="blank"></p>
+                    <div class="station">동원역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-38">
+                <div id="second-38">
+                    <p class="blank"></p>
+                    <div class="station">금곡역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-39">
+                <div id="second-39">
+                    <p class="blank"></p>
+                    <div class="station">호포역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-40">
+                <div id="second-40">
+                    <p class="blank"></p>
+                    <div class="station">증산역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-41">
+                <div id="second-41">
+                    <p class="blank"></p>
+                    <div class="station">부산대 <br> 양산캠퍼스역</div>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-42">
+                <div id="second-42">
+                    <p class="blank"></p>
+                    <div class="station">남양산역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+            <div class="pages four2-43">
+                <div id="second-43">
+                    <p class="blank"></p>
+                    <div class="station">양산역</div><br>
+                    <div class="car" id="one">1 - </div>
+                    <div class="car" id="two">2 - </div>
+                    <div class="car" id="three">3 - </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="menu.js">
+    </script>
+    <script type="text/javascript" src="2hosun.js">
+    </script>
+</body>
+</html>
